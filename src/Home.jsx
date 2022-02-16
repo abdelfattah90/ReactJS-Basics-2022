@@ -4,7 +4,7 @@ function Home() {
     <>
       <ul>
         <li>
-          <Link to='/'>HomePage</Link>
+          <Link to='/'>Home</Link>
         </li>
         <li>
           <Link to='/ex1'>useState, Destructuring, Map</Link>
