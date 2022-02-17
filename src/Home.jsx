@@ -9,6 +9,9 @@ function Home() {
         <li>
           <Link to='/ex1'>useState, Destructuring, Map</Link>
         </li>
+        <li>
+          <Link to='/ex2'>state, props</Link>
+        </li>
       </ul>
     </>
   )

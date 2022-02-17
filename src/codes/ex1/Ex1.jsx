@@ -7,6 +7,7 @@ function Ex1() {
     setItems((prevState) => [...prevState, newItem])
   }
   const itemElements = items.map((item) => <p key={item}>{item}</p>)
+
   return (
     <>
       <Link to='/'>Home</Link>
