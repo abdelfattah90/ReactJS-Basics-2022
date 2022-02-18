@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 function Home() {
   return (
-    <>
+    <div className='container mx-auto  px-4 m-3'>
       <ul>
         <li>
           <Link to='/'>Home</Link>
@@ -15,11 +15,8 @@ function Home() {
         <li>
           <Link to='/ex3'>Counter</Link>
         </li>
-        <li>
-          <Link to='/ex4'>4</Link>
-        </li>
       </ul>
-    </>
+    </div>
   )
 }
 
