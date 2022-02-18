@@ -8,8 +8,12 @@ const Ex3 = () => {
     <div className='container mx-auto'>
       <h2>Counter</h2>
       <h3>{count}</h3>
-      <button onClick={add}>+</button>
-      <button onClick={sub}>-</button>
+      <button className='btn btn-primary' onClick={add}>
+        +
+      </button>
+      <button className='btn btn-secondary' onClick={sub}>
+        -
+      </button>
       <h2>
         Note: If you ever need the old value of state to help you determine the
         new value of state, You should pass a callback function to your state
