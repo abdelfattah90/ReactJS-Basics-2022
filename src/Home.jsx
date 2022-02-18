@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 function Home() {
   return (
-    <div className='container mx-auto  px-4 m-3'>
+    <div className='container mx-auto px-4 m-3'>
       <p className='p-2'>
         <Link className='p-4' to='/'>
           Home

@@ -5,7 +5,7 @@ const Ex3 = () => {
   const add = () => setCount((prevCount) => prevCount + 1)
   const sub = () => setCount((prevCount) => prevCount - 1)
   return (
-    <div className='container mx-auto'>
+    <div className='container mx-auto px-4 m-3'>
       <h2>Counter</h2>
       <h3>{count}</h3>
       <button className='btn btn-primary' onClick={add}>

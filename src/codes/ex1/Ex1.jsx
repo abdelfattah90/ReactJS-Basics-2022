@@ -9,13 +9,15 @@ function Ex1() {
   const itemElements = items.map((item) => <p key={item}>{item}</p>)
 
   return (
-    <>
+    <div className='container mx-auto px-4 m-3'>
       <Link to='/'>Home</Link>
 
       <h2>useState, Destructuring, Map</h2>
-      <button onClick={addItem}>Add</button>
+      <button className='btn btn-primary' onClick={addItem}>
+        Add Item
+      </button>
       {itemElements}
-    </>
+    </div>
   )
 }
 
