@@ -12,6 +12,12 @@ function Home() {
         <li>
           <Link to='/ex2'>state, props</Link>
         </li>
+        <li>
+          <Link to='/ex3'>Counter</Link>
+        </li>
+        <li>
+          <Link to='/ex4'>4</Link>
+        </li>
       </ul>
     </>
   )
