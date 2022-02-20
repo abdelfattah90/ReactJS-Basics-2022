@@ -49,7 +49,7 @@ function ComponentsProps() {
     <div>
       <p className='text-2xl text-center'>Components and Props</p>
       <p className='text-1xl text-center'>
-        Rendering a Component - Composing Components - Extracting Components
+        Composing Components - Extracting Components
       </p>
 
       {/* Rendering a Component */}
