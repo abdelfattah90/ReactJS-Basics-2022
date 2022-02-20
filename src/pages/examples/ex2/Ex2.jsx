@@ -1,6 +1,6 @@
 import { useState } from 'react'
 
-const Ex3 = () => {
+const Ex2 = () => {
   const [count, setCount] = useState(0)
   const add = () => setCount((prevCount) => prevCount + 1)
   const sub = () => setCount((prevCount) => prevCount - 1)
@@ -26,4 +26,4 @@ const Ex3 = () => {
   )
 }
 
-export default Ex3
+export default Ex2

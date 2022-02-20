@@ -2,26 +2,22 @@ import { Link } from 'react-router-dom'
 function Home() {
   return (
     <div className='container mx-auto px-4 m-3'>
-      <p className='p-2'>
-        <Link className='p-4' to='/'>
-          Home
-        </Link>
-      </p>
-      <p className='p-2'>
-        <Link className='p-4' to='/ex1'>
-          useState, Destructuring, Map
-        </Link>
-      </p>
-      <p className='p-2'>
-        <Link className='p-4' to='/ex2'>
-          state, props
-        </Link>
-      </p>
-      <p className='p-2'>
-        <Link className='p-4' to='/ex3'>
-          Counter
-        </Link>
-      </p>
+      <p className='text-2xl'>Main Concepts</p>
+      <ul class='list-disc'>
+        <li className='p-2 text-blue-500'>
+          <Link to='/components-props'>Components and Props</Link>
+        </li>
+      </ul>
+
+      <p className='text-2xl'>Examples:</p>
+      <ul class='list-disc'>
+        <li className='p-2 text-blue-500'>
+          <Link to='/ex1'>useState, Destructuring, Map</Link>
+        </li>
+        <li className='p-2 text-blue-500'>
+          <Link to='/ex2'>Counter</Link>
+        </li>
+      </ul>
     </div>
   )
 }

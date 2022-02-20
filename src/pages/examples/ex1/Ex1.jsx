@@ -1,5 +1,4 @@
 import { useState } from 'react'
-import { Link } from 'react-router-dom'
 function Ex1() {
   const [items, setItems] = useState([])
   const addItem = () => {
@@ -10,9 +9,7 @@ function Ex1() {
 
   return (
     <div className='container mx-auto px-4 m-3'>
-      <Link to='/'>Home</Link>
-
-      <h2>useState, Destructuring, Map</h2>
+      <p>useState, Destructuring, Map</p>
       <button className='btn btn-primary' onClick={addItem}>
         Add Item
       </button>
