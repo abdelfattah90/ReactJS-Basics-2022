@@ -17,8 +17,12 @@ function Home() {
         <li className='p-2 text-blue-500'>
           <Link to='/handling-events'>Handling Events</Link>
         </li>
+      </ul>{' '}
+      <ul className='list-disc'>
+        <li className='p-2 text-blue-500'>
+          <Link to='/conditional-rendering'>Conditional Rendering</Link>
+        </li>
       </ul>
-
       <p className='text-2xl'>Examples:</p>
       <ul className='list-disc'>
         <li className='p-2 text-blue-500'>
