@@ -3,23 +3,23 @@ function Home() {
   return (
     <div className='container mx-auto px-4 m-3'>
       <p className='text-2xl'>Main Concepts</p>
-      <ul className='list-decimal'>
-        <ol className='p-2 text-blue-500'>
+      <ol className='list-decimal'>
+        <li className='p-2 text-blue-500'>
           <Link to='/components-props'>Components and Props</Link>
-        </ol>
-        <ol className='p-2 text-blue-500'>
+        </li>
+        <li className='p-2 text-blue-500'>
           <Link to='/state-lifecycle'>State and Lifecycle</Link>
-        </ol>
-        <ol className='p-2 text-blue-500'>
+        </li>
+        <li className='p-2 text-blue-500'>
           <Link to='/handling-events'>Handling Events</Link>
-        </ol>
-        <ol className='p-2 text-blue-500'>
+        </li>
+        <li className='p-2 text-blue-500'>
           <Link to='/conditional-rendering'>Conditional Rendering</Link>
-        </ol>
-        <ol className='p-2 text-blue-500'>
+        </li>
+        <li className='p-2 text-blue-500'>
           <Link to='/lists-and-keys'>Lists and Keys</Link>
-        </ol>
-      </ul>
+        </li>
+      </ol>
 
       <p className='text-2xl'>Examples:</p>
       <ul className='list-disc'>
