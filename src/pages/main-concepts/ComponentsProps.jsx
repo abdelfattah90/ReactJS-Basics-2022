@@ -19,9 +19,7 @@ function formatDate(date) {
 
 // Avatar
 function Avatar(props) {
-  return (
-    <img className='Avatar' src={props.user.avatarUrl} alt={props.user.name} />
-  )
+  return <img src={props.user.avatarUrl} alt={props.user.name} />
 }
 // UserInfo
 function UserInfo(props) {
@@ -35,17 +33,17 @@ function UserInfo(props) {
 // Comment
 function Comment(props) {
   return (
-    <div className='Comment'>
+    <div>
       <UserInfo user={props.author} />
-      <div className='Comment-text'>{props.text}</div>
-      <div className='Comment-date'>{formatDate(props.date)}</div>
+      <div>{props.text}</div>
+      <p>{formatDate(props.date)}</p>
     </div>
   )
 }
 
 function ComponentsProps() {
   return (
-    <div>
+    <>
       <p className='text-2xl text-center'>Components and Props</p>
       <p className='text-1xl text-center'>
         Composing Components - Extracting Components
@@ -69,7 +67,7 @@ function ComponentsProps() {
           author={comment.author}
         />
       </div>
-    </div>
+    </>
   )
 }
 
