@@ -19,6 +19,9 @@ function Home() {
         <li className='p-2 text-blue-500'>
           <Link to='/lists-and-keys'>Lists and Keys</Link>
         </li>
+        <li className='p-2 text-blue-500'>
+          <Link to='/forms'>Forms</Link>
+        </li>
       </ol>
 
       <p className='text-2xl'>Examples:</p>
