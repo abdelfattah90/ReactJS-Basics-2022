@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 function Home() {
   return (
-    <div className='container mx-auto px-4 m-3'>
+    <div className='container mx-auto px-5 m-4'>
       <p className='text-2xl'>Main Concepts</p>
       <ol className='list-decimal'>
         <li className='p-2 text-blue-500'>
@@ -21,6 +21,9 @@ function Home() {
         </li>
         <li className='p-2 text-blue-500'>
           <Link to='/forms'>Forms</Link>
+        </li>
+        <li className='p-2 text-blue-500'>
+          <Link to='/lifting-state-up'>Lifting State Up</Link>
         </li>
       </ol>
 
