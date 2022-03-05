@@ -9,7 +9,6 @@ import Forms from './pages/main-concepts/Forms'
 import LiftingStateUp from './pages/main-concepts/LiftingStateUp'
 import Ex1 from './pages/examples/ex1/Ex1'
 import Ex2 from './pages/examples/ex2/Ex2'
-import Movie from './pages/examples/movie-app/Movie'
 
 function App() {
   return (
@@ -29,7 +28,6 @@ function App() {
           <Route path='/lists-and-keys' element={<ListsAndKeys />} />
           <Route path='/ex1' element={<Ex1 />} />
           <Route path='/ex2' element={<Ex2 />} />
-          <Route path='/movie' element={<Movie />} />
         </Routes>
       </Router>
     </>
