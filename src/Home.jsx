@@ -35,9 +35,6 @@ function Home() {
         <li className='p-2 text-blue-500'>
           <Link to='/ex2'>Counter</Link>
         </li>
-        <li className='p-2 text-blue-500'>
-          <Link to='/movie'>Movie</Link>
-        </li>
       </ul>
     </div>
   )
